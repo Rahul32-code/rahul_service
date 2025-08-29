@@ -106,7 +106,7 @@ const ContactSection = () => {
       console.error("Network error:", error);
       toast.error("Network error. Please try again.");
     } finally {
-      setIsSending(false); // Correct usage
+      setIsSending(false); 
     }
   };
 
