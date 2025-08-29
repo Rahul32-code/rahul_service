@@ -64,17 +64,17 @@ const featuredServices = [
   {
     name: "Bloging website",
     desc: "Course selling, student progress tracking.",
-    icon: <GraduationCap size={32} className="text-teal-400" />,
+    icon: <FileText size={32} className="text-teal-400" />,
   },
   {
     name: "Admin Dashboards Backend",
     desc: "Total users, revenue, daily active users",
-    icon: <GraduationCap size={32} className="text-teal-400" />,
+    icon: <ClipboardCheck size={32} className="text-teal-400" />,
   },
   {
     name: "Email Notifications / OTP / SMS",
     desc: "Total users, revenue, daily active users",
-    icon: <GraduationCap size={32} className="text-teal-400" />,
+    icon: <MessageCircle size={32} className="text-teal-400" />,
   },
 ];
 
