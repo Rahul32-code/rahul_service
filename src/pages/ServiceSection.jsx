@@ -81,7 +81,7 @@ const featuredServices = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="container px-6 mx-auto my-20">
+    <section id="services" className="container px-6 mx-auto my-10">
       {/* Section Header */}
       <div className="text-center mb-12">
         <h2 className="text-white text-4xl font-bold mb-4">

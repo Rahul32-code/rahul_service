@@ -102,6 +102,7 @@ const SkillsSection = () => {
             <img
               src={skill.icon}
               alt={skill.name}
+              loading="lazy"
               className="w-20 h-auto  mx-auto mb-2"
             />
             <p className="text-sm font-semibold ">{skill.name}</p>
