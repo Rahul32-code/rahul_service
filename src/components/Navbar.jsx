@@ -2,40 +2,40 @@ import React from "react";
 import logo from "../assets/logo/logo.png";
 
 const navItems = [
-  { label: "Services", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "Services", href: "#services" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 py-5 bg-transparent">
       <div className="container px-6 mx-auto relative text-sm">
-        <div className="flex items-center justify-between rounded-lg backdrop-blur-lg   bg-opacity-60  shadow-lg px-4 py-4">
+        <div className="flex items-center justify-between rounded-lg backdrop-blur-lg bg-white/10 bg-opacity-60 border border-white/20 shadow-lg px-4 py-4">
           {/* Logo */}
           <div className="flex items-center flex-shrink-0">
-            <a href="#" >
-            <img
-              className="w-25 mr-2 cursor-pointer"
-              src={logo}
-              alt="logo"
-              loading="lazy"
-            />
+            <a href="#">
+              <img
+                className="w-25 mr-2 cursor-pointer"
+                src={logo}
+                alt="logo"
+                loading="lazy"
+              />
             </a>
           </div>
 
           {/* Navigation Items */}
-          {/* <ul className="hidden lg:flex space-x-8">
+          <ul className="hidden lg:flex space-x-8">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a
                   href={item.href}
-                  className="text-slate-600 hover:text-[var(--primary)] transition-colors duration-300"
+                  className="text-white hover:text-teal-600 transition-colors duration-300 text-xl"
                 >
                   {item.label}
                 </a>
               </li>
             ))}
-          </ul> */}
+          </ul>
 
           {/* Contact Button */}
           <div className="flex items-center">
