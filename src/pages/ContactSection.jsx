@@ -12,8 +12,8 @@ const contactInfo = [
       />
     ),
     label: "Phone",
-    value: "+91 84482 53664",
-    href: "tel:+918448253664",
+    value: "+91 9625 9687 93",
+    href: "tel:+919625968793",
   },
   {
     icon: (
