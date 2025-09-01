@@ -12,7 +12,7 @@ const SkeletonSection = () => {
             </div>
 
             {/* Navigation Items */}
-            <div className="flex items-center justify-center gap-4">
+            <div className="hidden sm:flex items-center justify-center gap-4">
               <div className="w-18 h-4 bg-gray-700 shimmer rounded-lg"></div>
               <div className="w-18 h-4 bg-gray-700 shimmer rounded-lg"></div>
             </div>
