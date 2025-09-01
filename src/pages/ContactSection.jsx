@@ -12,7 +12,7 @@ const contactInfo = [
       />
     ),
     label: "Phone",
-    value: "+91 9625 9687 93",
+    value: "+91 9625-9687-93",
     href: "tel:+919625968793",
   },
   {
