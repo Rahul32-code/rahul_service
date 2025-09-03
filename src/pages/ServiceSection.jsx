@@ -27,7 +27,7 @@ const featuredServices = [
     icon: <LayoutDashboard size={32} className="text-teal-500" />,
   },
   {
-    name: "Responsive Website",
+    name: "Dynamic and Static Websites",
     desc: "Pixel-perfect across all screen sizes.",
     icon: <Smartphone size={32} className="text-teal-500" />,
   },
@@ -57,7 +57,7 @@ const featuredServices = [
     icon: <CalendarCheck2 size={32} className="text-teal-400" />,
   },
   {
-    name: "Learning Management System",
+    name: "Learning Management System (Adnmin)",
     desc: "Course selling, student progress tracking.",
     icon: <GraduationCap size={32} className="text-teal-400" />,
   },
