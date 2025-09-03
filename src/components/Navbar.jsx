@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="flex items-center flex-shrink-0">
             <a href="#">
               <img
-                className="w-25 mr-2 cursor-pointer"
+                className="w-50 mr-2 cursor-pointer"
                 src={logo}
                 alt="logo"
                 loading="lazy"
