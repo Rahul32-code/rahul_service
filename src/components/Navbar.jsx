@@ -20,6 +20,7 @@ const Navbar = () => {
                 alt="logo"
                 loading="lazy"
                 target="_blank"
+                rel="noopener noreferrer"
               />
             </a>
           </div>
