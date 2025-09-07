@@ -13,12 +13,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between rounded-lg backdrop-blur-lg bg-white/10 bg-opacity-60 border border-white/20 shadow-lg px-4 py-4">
           {/* Logo */}
           <div className="flex items-center flex-shrink-0">
-            <a href="#">
+            <a href="https://rahulcode.in/">
               <img
                 className="w-50 mr-2 cursor-pointer"
                 src={logo}
                 alt="logo"
                 loading="lazy"
+                target="_blank"
               />
             </a>
           </div>
